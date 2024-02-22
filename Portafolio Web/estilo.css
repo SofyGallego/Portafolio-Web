@@ -79,12 +79,12 @@ html{
     letter-spacing: 5px;
 }
 #inicio .contenido .presentacion h2{
-    font-size: 55px;
+    font-size: 25px;
     margin-bottom: 25px;
     text-align: center;
 }
 #inicio .contenido .presentacion h2 span{
-    font-size: 25px;
+    font-size: 55px;
     color: #4959ee;
 }
 #inicio .contenido .presentacion .descripcion{
