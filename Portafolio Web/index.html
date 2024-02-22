@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="estilo.css">
+        <title>Portafolio WEB</title>
+    </head>
+
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="contenido-header">
+                        <h1>Mi Portafolio</h1>
+                        <nav id="nav" class="">
+                            <ul id="links">
+                                <li><a href="#inicio" class="seleccionado">INICIO</a></li>
+                                <li><a href="#sobremi">SOBRE MI</a></li>
+                                <li><a href="#skills">HABILIDADES</a></li>
+                                <li><a href="#portafolio">PORTAFOLIO</a></li>
+                                <li><a href="#contacto">CONTACTO</a></li>
+                            </ul>
+                        </nav>
+
+                        <div id="icono-nav">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+
+                        <div class="redes">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-discord"></i></a>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </header>
+                <div class="presentacion">
+                    <p class="bienvenida">Bienvenidos</p>
+                    <h2>Soy<span> Sofy Paola Gallego Marín</span>, Ingeniera Multimedia</h2>
+                    <p class="descripcion">En esta Website encontraras mi Portafolio de mis trabajos y proyectos realizados, personales como por estudio, tambien conoceras mi historio y como llegue a lo que soy actualmente. Si deseas contactarme puedes llenar un formulario para que pueda saber quien eres. Beinvenid@ a mi Portafolio</p>
+                    <a href="#portafolio">Ir a Portafolio</a>
+                </div>
+            </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi">
+            <div class="contenedor-foto">
+                <img src="img/mifoto.jpg" alt="">
+            </div>
+            <div class="sobremi">
+                <p class="titulo-seccion">Sobre Mi</p>
+                <h2>Hola, soy <span>Sofy Paola</span></h2>
+                <h3>Ingeniera Multimedia</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti aut necessitatibus quibusdam provident enim quo? </p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti aut necessitatibus quibusdam provident enim quo? </p>
+                <a href="#">Descargar CV</a>
+            </div>
+    </section>
+
+        <!-- SECCION HABILIDADES -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Blender</p>
+                <span class="porcentaje">62%</span>
+            </div>
+            <div class="barra">
+                <div id="blender" class=""></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Photoshop</p>
+                <span class="porcentaje">43%</span>
+            </div>
+            <div class="barra">
+                <div id="photoshop" class=""></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Illustrator</p>
+                <span class="porcentaje">55%</span>
+            </div>
+            <div class="barra">
+                <div id="illustrator" class=""></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Html & Css</p>
+                <span class="porcentaje">40%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class=""></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portafolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/3objetos.jpeg" alt="">
+                <div class="info">
+                    <h4>Descripción Modelos 3D</h4>
+                    <p>Estos fueron mis primeros modelos en 3D desarrollados en Blender para Modelado y Animación por Computadora como actividad. Son 3 objetos, el primero es un sombrero de copa con un estilo simple, luego una figura con cuerpo chibi y cabeza de television y por ultimo unas gafas con tematica/estilo Steampunk</p>
+                </div>
+            </div>
+            <div class="overlay">
+                <video src="img/animacion.mp4" controls autoplay muted loop></video>
+                <div class="info">
+                    <h4>Descripción Video</h4>
+                    <p>Esta animación fue realizada en el programa Blender en 3D como proyecto final de la asignatura Modelado y Animación por Computadora, la tematica es espacial y acción, con el estilo de Star Wars</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="text" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" row="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
